@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.bai13truonghop1nguyennhuy56131778;
+package com.example.bai13truonghop1;
 
 public final class R {
     public static final class attr {
