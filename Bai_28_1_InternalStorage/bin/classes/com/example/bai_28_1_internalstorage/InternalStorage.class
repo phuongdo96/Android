@@ -1,0 +1,42 @@
+ ˛∫æ   2 »  Lcom/example/bai_28_1_internalstorage/InternalStorage  android/app/Activity  !android/view/View$OnClickListener btnread Landroid/widget/Button; btnwrite editdata Landroid/widget/EditText; <init> ()V Code
+     LineNumberTable LocalVariableTable this NLcom/example/bai_28_1_internalstorage/InternalStorage; onCreate (Landroid/os/Bundle;)V
+      
+     setContentView (I)V 
+    ! " findViewById (I)Landroid/view/View; $ android/widget/Button	  &   	  ) 	   , android/widget/EditText	  . 
+ 
+ # 0 1 2 setOnClickListener &(Landroid/view/View$OnClickListener;)V savedInstanceState Landroid/os/Bundle; onClick (Landroid/view/View;)V
+ 8 : 9 android/view/View ; < getId ()I
+  > ?  readData
+  A B  	writeData v Landroid/view/View; StackMapTable G 
+myfile.txt
+  I J K openFileInput -(Ljava/lang/String;)Ljava/io/FileInputStream; M java/io/BufferedReader O java/io/InputStreamReader
+ N Q  R (Ljava/io/InputStream;)V
+ L T  U (Ljava/io/Reader;)V W   Y java/lang/StringBuilder
+ X 
+ X \ ] ^ append -(Ljava/lang/String;)Ljava/lang/StringBuilder; ` 
+
+ L b c d readLine ()Ljava/lang/String;
+ f h g java/io/FileInputStream i  close
+ X k l d toString
+ + n o p setText (Ljava/lang/CharSequence;)V
+  r s t getFilesDir ()Ljava/io/File;
+ v k w java/io/File
+ y { z java/io/FileNotFoundException |  printStackTrace
+ ~ {  java/io/IOException in Ljava/io/FileInputStream; reader Ljava/io/BufferedReader; data Ljava/lang/String; builder Ljava/lang/StringBuilder; e Ljava/io/FileNotFoundException; Ljava/io/IOException; å java/lang/String
+  é è ê openFileOutput /(Ljava/lang/String;I)Ljava/io/FileOutputStream; í java/io/OutputStreamWriter
+ ë î  ï (Ljava/io/OutputStream;)V
+ + ó ò ô getText ()Landroid/text/Editable; õ k ú android/text/Editable
+ ë û ü † write (Ljava/lang/String;)V
+ ë h out Ljava/io/FileOutputStream; writer Ljava/io/OutputStreamWriter; 	readData2
+  ® © ™ getResources !()Landroid/content/res/Resources; 
+ ≠ Ø Æ android/content/res/Resources ∞ ± openRawResource (I)Ljava/io/InputStream;
+ ≥ h ¥ java/io/InputStream ∂ ERROR
+ ~ ∏ π d 
+getMessage
+ ª Ω º android/util/Log à æ '(Ljava/lang/String;Ljava/lang/String;)I Ljava/io/InputStream; inreader Ljava/io/InputStreamReader; 	bufreader ex 
+SourceFile InternalStorage_56131778.java InnerClasses OnClickListener !              	      
+            /     *∑ ±                               ì     C*+∑ *∂ **∂ ¿ #µ %**'∂ ¿ #µ (***∂ ¿ +µ -*¥ %*∂ /*¥ (*∂ /±       "           %  2  :   B !        C       C 3 4   5 6     p     +∂ 7† 
+*∂ =ß +∂ 7'† *∂ @±           # 	 %  &  '  )  +                C D  E      ?     f     {*F∂ HLª LYª NY+∑ P∑ SMVNª XY∑ Z:ß -∂ [W_∂ [W,∂ aYN«ˇÎ+∂ e*¥ -∂ j∂ mß ,L*¥ -*∂ q∂ u∂ m+∂ xß L*¥ -*∂ q∂ u∂ m+∂ }±    N Q y   N g ~     J    /  1  0  2  3 # 4 & 6 - 7 5 4 > 9 B : N ; R < ` = g > h ? v @ z B    H    {      G Ä Å   7 Ç É   4 Ñ Ö  # + Ü á  R  à â  h  à ä  E   + ˇ &   f L ã X  ˇ     yU ~  B      —     6*F∂ çLª ëY+∑ ìM,*¥ -∂ ñπ ö ∂ ù,∂ °ß L+∂ xß L+∂ }±    % ( y   % 0 ~     .    G  F  I  H  J ! K % L ) M 0 N 1 O 5 Q    4    6       ¢ £    § •  )  à â  1  à ä  E    h yG ~  ¶     \     g*∂ ß´∂ ¨Mª NY,∑ PNª LY-∑ S:ª XY∑ Z:,∆ ?ß +∂ [W_∂ [W∂ aYL«ˇÍ,∂ ≤*¥ -∂ j∂ mß :µ∂ ∑∏ ∫W±  * V Y ~     F    U  V 	 U 
+ W  X  Y & Z * ] - _ 4 ` < ] F b J c V d Y e [ f f i    R    g     -  Ñ Ö  C  Ñ Ö  
+ ] Ä ø   T ¿ ¡   J ¬ É  & A Ü á  [  √ ä  E   7 ˇ -   ã ≥ N L X  ˇ     ≥ N L X  \ ~  ƒ    ≈ ∆   
+   8 «	
