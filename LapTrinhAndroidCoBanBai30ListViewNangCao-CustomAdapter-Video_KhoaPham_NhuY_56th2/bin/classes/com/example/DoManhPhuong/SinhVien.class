@@ -1,0 +1,5 @@
+Êþº¾   2   com/example/DoManhPhuong/SinhVien  java/lang/Object HoTen Ljava/lang/String; NamSinh Ljava/lang/Integer; <init> ((Ljava/lang/String;Ljava/lang/Integer;)V Code
+   	  ()V	    	     LineNumberTable LocalVariableTable this !Lcom/example/DoManhPhuong/SinhVien; hoTen namSinh 
+SourceFile SinhVien.java !                  	 
+     Y     *· *+µ *,µ ±             	 	 
+                                 
