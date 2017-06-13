@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.NguyenNhuY_56th2_56131778_Bai12_Java;
+package com.example.Bai12_Java;
 
 public final class R {
     public static final class attr {
@@ -57,10 +57,10 @@ public final class R {
         public static final int textView9=0x7f080019;
     }
     public static final class layout {
-        public static final int activity_ani_dar_nguyen_nhu_y_56131778_56th2_java_=0x7f030000;
+        public static final int activity_ani_56th2_java_=0x7f030000;
     }
     public static final class menu {
-        public static final int nguyen_nhu_y_56131778_56th2__java=0x7f070000;
+        public static final int 56th2__java=0x7f070000;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;

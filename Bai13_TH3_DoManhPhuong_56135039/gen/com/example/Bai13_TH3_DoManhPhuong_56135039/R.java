@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.bai13truonghop3nguyennhuy56131778;
+package com.example.bai13truonghop3;
 
 public final class R {
     public static final class attr {
@@ -32,7 +32,7 @@ public final class R {
         public static final int txtselection=0x7f080003;
     }
     public static final class layout {
-        public static final int truong_hop3_56131778_nhu_y=0x7f030000;
+        public static final int truong_hop3=0x7f030000;
     }
     public static final class menu {
         public static final int truong_hop3=0x7f070000;

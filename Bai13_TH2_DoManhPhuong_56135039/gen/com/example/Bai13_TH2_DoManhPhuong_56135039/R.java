@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.bai13truonghop2nguyennhuy56131778;
+package com.example.bai13truonghop2;
 
 public final class R {
     public static final class array {
@@ -32,10 +32,10 @@ public final class R {
         public static final int txtselection=0x7f090000;
     }
     public static final class layout {
-        public static final int truong_hop2_nguyennhuy=0x7f030000;
+        public static final int truong_hop2=0x7f030000;
     }
     public static final class menu {
-        public static final int truong_hop2__nguyen_nhu_y=0x7f080000;
+        public static final int truong_hop2=0x7f080000;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;

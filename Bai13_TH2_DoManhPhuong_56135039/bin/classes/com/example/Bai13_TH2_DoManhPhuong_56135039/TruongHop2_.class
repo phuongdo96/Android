@@ -1,0 +1,15 @@
+Êþº¾   2 S  Ccom/example/bai13truonghop2/TruongHop2_  android/app/Activity <init> ()V Code
+  	   LineNumberTable LocalVariableTable this ELcom/example/bai13truonghop2/TruongHop2_; onCreate (Landroid/os/Bundle;)V
+      
+     setContentView (I)V
+     getResources !()Landroid/content/res/Resources;  
+    android/content/res/Resources   ! getStringArray (I)[Ljava/lang/String;	 
+  $ % & findViewById (I)Landroid/view/View; ( android/widget/ListView * android/widget/ArrayAdapter	 
+ ) -  . 0(Landroid/content/Context;I[Ljava/lang/Object;)V
+ ' 0 1 2 
+setAdapter (Landroid/widget/ListAdapter;)V	   5 android/widget/TextView 7 Ecom/example/bai13truonghop2/TruongHop2
+ 6 9  : t(Lcom/example/bai13truonghop2/TruongHop2_;Landroid/widget/TextView;[Ljava/lang/String;)V
+ ' < = > setOnItemClickListener 3(Landroid/widget/AdapterView$OnItemClickListener;)V savedInstanceState Landroid/os/Bundle; arr [Ljava/lang/String; lv Landroid/widget/ListView; adapter Landroid/widget/ArrayAdapter; txt Landroid/widget/TextView; LocalVariableTypeTable 1Landroid/widget/ArrayAdapter<Ljava/lang/String;>; 
+SourceFile TruongHop2_.java InnerClasses O .android/widget/AdapterView$OnItemClickListener Q android/widget/AdapterView OnItemClickListener !               /     *· ±    
+                           Û     M*+· *¶ *¶ ¶ M*"¶ #À 'N» )Y*+,· ,:-¶ /*3¶ #À 4:-» 6Y*,· 8¶ ;±    
+   & 	            ,  2  =  L     >    M       M ? @   8 A B   . C D  , ! E F  =  G H  I     , ! E J   K    L M     N P R	 6      

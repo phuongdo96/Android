@@ -1,4 +1,4 @@
-package com.example.baitap11sudungcheckboxvaradiobuttontrongandroidnguyennhuy_56131778;
+﻿package com.example.baitap11sudungcheckboxvaradiobuttontrongandroid;
 import android.R.color;
 import android.os.Bundle;
 import android.provider.CalendarContract.Colors;
@@ -16,7 +16,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
-public class ViDu3_NguyenNhuY_56131778_56th2  extends Activity {
+public class ViDu3_56th2  extends Activity {
 	RadioGroup NhomBangCap;
 	CheckBox Bao, Sach, Code;
 	EditText HoTen, CMND, BoSung;
@@ -32,7 +32,7 @@ public class ViDu3_NguyenNhuY_56131778_56th2  extends Activity {
         BoSung = (EditText) findViewById(R.id.editText3);
 	}
 	
-	public void RunNaoNhuY56131778(View v)
+	public void RunNao(View v)
 	{
 		if(KiemTraten()==1&&KiemTraCMND()==1&&KiemTraBangCap()==1&&KiemTraSoThich()==1)
 		{

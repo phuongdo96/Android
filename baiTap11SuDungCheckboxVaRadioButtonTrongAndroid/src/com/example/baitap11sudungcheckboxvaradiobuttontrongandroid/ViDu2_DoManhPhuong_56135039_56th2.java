@@ -1,4 +1,4 @@
-package com.example.baitap11sudungcheckboxvaradiobuttontrongandroidnguyennhuy_56131778;
+﻿package com.example.baitap11sudungcheckboxvaradiobuttontrongandroid\;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-public class ViDu2_NguyenNhuY_56131778_56th2  extends Activity {
+public class ViDu2_56th2  extends Activity {
 	RadioGroup Nhom ;
 	Button Nut;
 	protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +55,7 @@ public class ViDu2_NguyenNhuY_56131778_56th2  extends Activity {
 	    }
 	 public void chuyenSangVidDu3(View v)
 	 {
-		 Intent chuyen = new Intent(ViDu2_NguyenNhuY_56131778_56th2.this, ViDu3_NguyenNhuY_56131778_56th2.class);
+		 Intent chuyen = new Intent(ViDu2_56th2.this, ViDu3_56th2.class);
 	    	startActivity(chuyen);
 	 }
 }

@@ -1,4 +1,4 @@
-package com.example.NguyenNhuY_56th2_56131778_Bai12_Java;
+package com.example.Bai12_Java;
 import java.util.ArrayList;
 
 public class DanhSachKhachHang {

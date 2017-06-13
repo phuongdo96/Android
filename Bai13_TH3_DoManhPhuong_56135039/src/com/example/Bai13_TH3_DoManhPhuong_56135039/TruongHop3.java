@@ -1,4 +1,4 @@
-package com.example.bai13truonghop3nguyennhuy56131778;
+package com.example.bai13truonghop3;
 import java.util.ArrayList;
 import android.os.Bundle;
 import android.app.Activity;
@@ -21,7 +21,7 @@ public class TruongHop3 extends Activity {
 	 @Override
 	 protected void onCreate(Bundle savedInstanceState) {
 	 super.onCreate(savedInstanceState);
-	 setContentView(R.layout.truong_hop3_56131778_nhu_y);
+	 setContentView(R.layout.truong_hop3);
 	 
 	 txtten=(EditText) findViewById(R.id.txtTen);
 	 txtchon=(TextView) findViewById(R.id.txtselection);

@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.baitap11sudungcheckboxvaradiobuttontrongandroidnguyennhuy_56131778;
+package com.example.baitap11sudungcheckboxvaradiobuttontrongandroid;
 
 public final class R {
     public static final class attr {
@@ -56,12 +56,12 @@ public final class R {
         public static final int textView3=0x7f08000d;
     }
     public static final class layout {
-        public static final int activity_nguyen_nhu_y_56131778=0x7f030000;
+        public static final int activity=0x7f030000;
         public static final int thongtincanhan=0x7f030001;
         public static final int vidu_radiobutton=0x7f030002;
     }
     public static final class menu {
-        public static final int nguyen_nhu_y_56th2=0x7f070000;
+        public static final int =0x7f070000;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;

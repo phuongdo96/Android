@@ -1,4 +1,4 @@
-package com.example.baitap11sudungcheckboxvaradiobuttontrongandroidnguyennhuy_56131778;
+﻿package com.example.baitap11sudungcheckboxvaradiobuttontrongandroid;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -11,13 +11,13 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.CheckBox;
 
-public class NguyenNhuY_56th2 extends Activity {
+public class  extends Activity {
 	CheckBox xembongda, xemphimkiemhiep,didulich, tukimotminh;
 	Button vote;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nguyen_nhu_y_56131778);
+        setContentView(R.layout.activity);
         xembongda = (CheckBox)findViewById(R.id.cbbong);
         xemphimkiemhiep = (CheckBox)findViewById(R.id.cbphim);
         didulich = (CheckBox)findViewById(R.id.cbdi);
@@ -61,13 +61,13 @@ public class NguyenNhuY_56th2 extends Activity {
     }
     public void ChuyenLayout(View v)
     {
-    	Intent chuyen = new Intent(NguyenNhuY_56th2.this,ViDu2_NguyenNhuY_56131778_56th2.class);
+    	Intent chuyen = new Intent(.this,ViDu2_56th2.class);
     	startActivity(chuyen);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.nguyen_nhu_y_56th2, menu);
+        getMenuInflater().inflate(R.menu.56th2, menu);
         return true;
     }
     
