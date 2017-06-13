@@ -1,4 +1,4 @@
-package com.example.onclickinxml;
+﻿package com.example.onclickinxml;
 
 import android.R.string;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class NguyenNhuY extends Activity {
+public class DoManhPhuong extends Activity {
 
 	EditText a, b;
 	Button nut;
@@ -18,7 +18,7 @@ public class NguyenNhuY extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nguyen_nhu_y);
+        setContentView(R.layout.activity_DoManhPhuong);
         a = (EditText) findViewById(R.id.soa);
         b = (EditText) findViewById(R.id.sob);
         nut = (Button) findViewById(R.id.nut);
@@ -39,7 +39,7 @@ public class NguyenNhuY extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.nguyen_nhu_y, menu);
+        getMenuInflater().inflate(R.menu.DoManhPhuong, menu);
         return true;
     }
     

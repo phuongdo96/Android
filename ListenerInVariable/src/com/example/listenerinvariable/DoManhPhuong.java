@@ -1,4 +1,4 @@
-package com.example.listenerinvariable;
+﻿package com.example.listenerinvariable;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -8,14 +8,14 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class NguyenNhuY extends Activity {
+public class DoManhPhuong extends Activity {
 
 	EditText c, f;
 	Button btntoC, btntoF, btnClear;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nguyen_nhu_y);
+        setContentView(R.layout.activity_DoManhPhuong);
         c=(EditText) findViewById(R.id.tC);
         f=(EditText) findViewById(R.id.tF);
         btntoC=(Button) findViewById(R.id.button1);
@@ -58,7 +58,7 @@ public class NguyenNhuY extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.nguyen_nhu_y, menu);
+        getMenuInflater().inflate(R.menu.DoManhPhuong, menu);
         return true;
     }
     

@@ -1,4 +1,4 @@
-package com.example.inlineanonymouslistener;
+﻿package com.example.inlineanonymouslistener;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -8,14 +8,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class NguyenNhuY extends Activity {
+public class DoManhPhuong extends Activity {
 	EditText ac;
 	TextView bc;
 	Button nutc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nguyen_nhu_y);
+        setContentView(R.layout.activity_DoManhPhuong);
         nutc = (Button) findViewById(R.id.nut);
         nutc.setOnClickListener(new OnClickListener() {
 			
@@ -39,7 +39,7 @@ public class NguyenNhuY extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.nguyen_nhu_y, menu);
+        getMenuInflater().inflate(R.menu.DoManhPhuong, menu);
         return true;
     }
     
